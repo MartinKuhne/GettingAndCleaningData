@@ -1,6 +1,6 @@
 Codebook
 ========
-Codebook was generated on 2014-10-26 22:06:55 during the same process that generated the dataset. See `run_analysis.md` or `run_analysis.html` for details on dataset creation.
+Codebook was generated on 2014-10-26 22:19:33 during the same process that generated the dataset. See `run_analysis.md` or `run_analysis.html` for details on dataset creation.
 
 Variable list and descriptions
 ------------------------------

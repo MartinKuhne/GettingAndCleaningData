@@ -206,16 +206,19 @@ hr {
 <body>
 <h1>run_analysis</h1>
 
-<p>Last updated 2014-10-26 22:06:13 using R version 3.1.1 (2014-07-10).</p>
+<p>Last updated 2014-10-26 22:18:48 using R version 3.1.1 (2014-07-10).</p>
 
 <p>Refer to the course web site (<a href="https://class.coursera.org/getdata-008/">https://class.coursera.org/getdata-008/</a>) for the project details</p>
 
-<p>5 requirements by the project:
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-3. Uses descriptive activity names to name the activities in the data set.
-4. Appropriately labels the data set with descriptive variable names.
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</p>
+<p>5 requirements by the project:</p>
+
+<ol>
+<li>Merges the training and the test sets to create one data set.</li>
+<li>Extracts only the measurements on the mean and standard deviation for each measurement.</li>
+<li>Uses descriptive activity names to name the activities in the data set.</li>
+<li>Appropriately labels the data set with descriptive variable names.</li>
+<li>From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li>
+</ol>
 
 <h2>Preliminaries</h2>
 
@@ -223,6 +226,10 @@ hr {
 
 <pre><code class="r">packages &lt;- c(&quot;data.table&quot;, &quot;reshape2&quot;)
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
+</code></pre>
+
+<pre><code>## data.table 1.9.4  For help type: ?data.table
+## *** NB: by=.EACHI is now explicit. See README to restore previous behaviour.
 </code></pre>
 
 <pre><code>## data.table   reshape2 
