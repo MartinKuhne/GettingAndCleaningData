@@ -1,6 +1,6 @@
 run_analysis
 ============
-Last updated 2014-10-26 22:18:48 using R version 3.1.1 (2014-07-10).
+Last updated 2014-10-26 22:39:50 using R version 3.1.1 (2014-07-10).
 
 Refer to the course web site (https://class.coursera.org/getdata-008/) for the project details
 
@@ -21,11 +21,6 @@ Load packages.
 ```r
 packages <- c("data.table", "reshape2")
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
-```
-
-```
-## data.table 1.9.4  For help type: ?data.table
-## *** NB: by=.EACHI is now explicit. See README to restore previous behaviour.
 ```
 
 ```

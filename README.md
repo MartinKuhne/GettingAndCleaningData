@@ -6,13 +6,13 @@ Refer to the course web site (https://class.coursera.org/getdata-008/) for the p
 
 Files
 ------
-codebook.html: generated cookbook (html)  
-codebook.md: generated cookbook (markdown)  
+codebook.html: generated codebook (html)  
+codebook.md: generated codebook (markdown)  
 DatasetHumanActivityRecognitionUsingSmartphones.txt: tidy dataset file   
 makeCodebook.Rmd: R markdown to produce codebook file   
 README.md: this file  
+run_analysis.html: generated run_analysis (html)  
 run_analysis.md: generated run_analysis (markdown)  
-run_analysis.md: generated run_analysis (html)  
 run_analysis.r: the script to invoke run_analysis.Rmd  
 run_analysis.Rmd: R markdown to produce the tidy dataset and also invoke the codebook R markdown to produce codebook  
 
@@ -29,4 +29,4 @@ Prerequisite: clone this github repository to local
 Outputs produced
 -------------------------
 * Tidy dataset file `DatasetHumanActivityRecognitionUsingSmartphones.txt` (tab-delimited text)
-* Codebook file `codebook.md` (Markdown) & `codebook.html` (html)
+* Codebook file `codebook.md` (markdown) & `codebook.html` (html)
